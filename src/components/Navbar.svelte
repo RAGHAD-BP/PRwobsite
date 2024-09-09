@@ -6,9 +6,6 @@
         text:'About me',
         href:'./'
         },{
-        text:'Resume',
-        href:'./resume'
-    },{
         text:'Project',
         href:'./projects'
     },{
@@ -58,6 +55,7 @@
                 {/each}
             </Sheet.Content>
         </Sheet.Root>
+        <ThemeSwitch/>
     </div>
 </nav>
     </div>
