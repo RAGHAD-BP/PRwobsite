@@ -1,7 +1,8 @@
 <script>
     // @ts-ignore
-    import {Button} from "../components/ui/button/button.svelte";
-    import ThemeSwitch from "../components/ThemeSwitch.svelte";
+    import {Button} from "./ui/button/button.svelte";
+    import * as Sheet from "$lib/components/ui/sheet";
+    import ThemeSwitch from "./ThemeSwitch.svelte";
     import {page} from "$app/stores";
     const links=[{
         text:'About me',
@@ -14,7 +15,7 @@
         href:'./contact'
     }];
     // @ts-ignore
-    import * as Sheet from "../components/ui/sheet";
+    
     let isSheetOpen=false;
 </script>
 <div class="w-[100dvw] bg-secondary text-foreground py-8 px-4  " >
