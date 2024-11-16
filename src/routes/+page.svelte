@@ -1,6 +1,6 @@
 <script lang="ts">
-    import project from "./projects/+page.svelte";
-    import contact from "./contact/+page.svelte";
+    import Project from "./project.svelte";
+    import Contact from "./contect.svelte";
     
 </script>
 <div class="sm:block flex ">
@@ -9,4 +9,5 @@
     bigenner web delovbor
 </div>
 </div>
-
+<Project/>
+<Contact/>
