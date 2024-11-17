@@ -1,6 +1,6 @@
 <script lang="ts">
-    import Project from "./project.svelte";
-    import Contact from "./contect.svelte";
+    import Project from "./Project/+page.svelte";
+    import Contact from "./Contect/+page.svelte";
     
 </script>
 <div class="sm:block flex ">

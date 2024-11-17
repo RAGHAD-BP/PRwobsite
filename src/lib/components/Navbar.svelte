@@ -10,16 +10,17 @@
 <span class="text-xl">/ Web Developer</span>
 </div>
 </div>
-<div class="uppercase">
-    <Button href="./" variant="link">
-        About me
-    </Button>
-    <Button href="./project" variant="link">
-        Project
-    </Button>
-    <Button href="./Contect" variant="link">
-        Contect
-    </Button>
+<!--<div class="uppercase">-->
+<!--    <Button href="./" variant="link">-->
+<!--        About me-->
+<!--    </Button>-->
+<!--    <Button href="./Project" variant="link">-->
+<!--        Project-->
+<!--    </Button>-->
+<!--    <Button href="./Contect" variant="link">-->
+<!--        Contect-->
+<!--    </Button>-->
+
+<!--</div>-->
     <ThemeSwitch/>
-</div>
 </nav>
