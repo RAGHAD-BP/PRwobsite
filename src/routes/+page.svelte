@@ -3,7 +3,7 @@
     import Contact from "./Contect/+page.svelte";
     import {Button} from "$lib/components/ui/button";
 </script>
-<div class="text-3xl font-bold text-center">Resuom</div>
+<div class="text-3xl font-bold text-center">Rusme</div>
 <div class="block pr-5 pl-5  flex justify-items-end justify-center m-5 sm:items-start">
     <img src="/bcanav.png " class="h-[320px] w-[320px] rounded-full shadow-primary shadow-[0px_5px_80px_-5px_rgba(0,0,0,3)] mx-7" >
 
