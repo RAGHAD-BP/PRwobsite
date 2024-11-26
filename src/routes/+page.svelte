@@ -2,6 +2,7 @@
     import Project from "./Project/+page.svelte";
     import Contact from "./Contect/+page.svelte";
     import {Button} from "$lib/components/ui/button";
+    import Footer from "\$lib/components/Footer.svelte";
 </script>
 <div class="text-3xl font-bold text-center">Rusme</div>
 
@@ -22,7 +23,6 @@
     </h1>
 
 </div>
-
 
 <div>
 <Project/>
