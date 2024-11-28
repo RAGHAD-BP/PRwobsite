@@ -3,7 +3,7 @@ import Button from "$lib/components/ui/button/button.svelte";
 </script>
 
 <div class=" flex justify-between items-baseline  w-[100dvw] bg-secondary text-secondary-foreground py-4 px-4 ">
-    <span class="font-light">
+    <span class="font-light ">
     © {new Date().getFullYear()} by Raghad Alsouwayhi <span/>
     </span>
     <div class=" flex justify-between gap-4">
@@ -15,18 +15,7 @@ import Button from "$lib/components/ui/button/button.svelte";
             <span class="font-semibold">Foolow</span>
             <div class="flex flex-row">
 
-    <Button variant="ghost" size="icon">
-        <svg
-                class="h-auto w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-        ><path
-                fill="currentColor"
-                d="M18.205 2.25h3.308l-7.227 8.26l8.502 11.24H16.13l-5.214-6.817L4.95 21.75H1.64l7.73-8.835L1.215 2.25H8.04l4.713 6.231zm-1.161 17.52h1.833L7.045 4.126H5.078z"
-        /></svg
-        >
-    </Button>
-    <Button variant="ghost" size="icon">
+    <Button variant="ghost" size="icon" href="https://www.linkedin.com/in/raghad-alsuwayhi-976b38307?trk=contact-info">
         <svg
                 class="h-auto w-6"
                 xmlns="http://www.w3.org/2000/svg"
