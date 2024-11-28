@@ -2,10 +2,9 @@
 import Button from "$lib/components/ui/button/button.svelte";
 </script>
 
-<div class="flex justify-between items-baseline w-[100dvw] bg-secondary text-secondary-foreground py-2 px-4 ">
+<div class=" flex justify-between items-baseline  w-[100dvw] bg-secondary text-secondary-foreground py-4 px-4 ">
     <span class="font-light">
-    © {new Date().getFullYear()} by Raghad Alsouwayhi
-    <span/>
+    © {new Date().getFullYear()} by Raghad Alsouwayhi <span/>
     </span>
     <div class=" flex justify-between gap-4">
     <span class="flex flex-col items-center">
