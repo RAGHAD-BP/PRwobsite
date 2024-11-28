@@ -1,6 +1,6 @@
 <script lang="ts">
     import Project from "./Project/+page.svelte";
-    import Contact from "./Contect/+page.svelte";
+    import Contect from "./Contect/+page.svelte";
     import {Button} from "$lib/components/ui/button";
     import Footer from "\$lib/components/Footer.svelte";
 </script>
@@ -10,14 +10,11 @@
     <img src="/bcanav.png " class="h-[320px] w-[320px] items-center rounded-full shadow-primary shadow-[0px_5px_80px_-5px_rgba(0,0,0,3)] mx-7" >
 
     <h1 class="font-medium w-[250px] text-center mx-7 m-10 ">
-        Hello i'm Raghad a student in
-        umm alqra universite my migor is
-        compouter sciens and i a web delovbor
-        and programmer
+        Hello, I am Raghad, a computer science student at um Al-Qura University, and I am interested in web development
 
         <div class="my-5 ml-7 items-center flex flex-row">
-        <Button class="m-2">project</Button>
-        <Button class="m-1">contect</Button>
+        <Button class="m-2" href="Project">project</Button>
+        <Button class="m-1" href="Contect">contect</Button>
         </div>
 
     </h1>
@@ -28,5 +25,5 @@
 <Project/>
 </div>
 <div>
-<Contact/>
+<Contect/>
 </div>
