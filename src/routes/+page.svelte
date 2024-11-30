@@ -21,9 +21,8 @@
 
 </div>
 
-<div>
+
     <Project/>
-</div>
-<div>
+
+
     <Contect/>
-</div>
