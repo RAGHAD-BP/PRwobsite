@@ -11,7 +11,7 @@ const darkmodeimage="pcana.png";
     <img src={ $mode === "dark" ? darkmodeimage:lightmodeimage} alt="Mode Based Image" class="h-[320px] w-[320px] items-center rounded-full shadow-primary shadow-[0px_5px_80px_-5px_rgba(0,0,0,3)] mx-7" >
 
     <h1 class="font-medium w-[250px] text-center mx-7 m-10 ">
-        Hello, I am <h class="text-primary">Raghad</h>, a computer science student at um Al-Qura University, and I am interested in web development
+        Hello, I am <h2 class="text-primary">Raghad</h2>, a computer science student at um Al-Qura University, and I am interested in web development
 
         <div class="my-5 ml-7 items-center flex flex-row">
         <Button class="m-2"><a href="#project">project</a></Button>
@@ -19,9 +19,9 @@ const darkmodeimage="pcana.png";
         </div>
 
     </h1>
-
 </div>
-<div id="project">
+
+    <div id="project">
     <Project/>
 </div>
 <div id="contect">
