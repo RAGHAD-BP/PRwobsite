@@ -18,6 +18,7 @@ method="POST">
         <div>
             <Label for="subject">Subject</Label>
             <Input required name="subject" id="subject" placeholder="....."/></div>
+    </div>
     <div>
         <Label for="message">Message</Label>
         <Textarea required name="message" id="message" placeholder="write your message" />
