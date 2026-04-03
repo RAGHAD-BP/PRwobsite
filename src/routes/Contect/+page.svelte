@@ -4,7 +4,7 @@
     import {Textarea} from "$lib/components/ui/textarea/index.js";
     import {Button} from "$lib/components/ui/button";
 </script>
-<div class="text-3xl font-bold text-center pt-32 py-10  ">Let's Talk!</div>
+<div class="text-3xl font-bold text-center pt-32 py-10  ">Send me a message</div>
 <form class="m-14 p-8 bg-secondary "
 action="https://formsubmit.co/raghad11ali88@gmail.com"
 method="POST">
@@ -23,5 +23,5 @@ method="POST">
         <Label for="message">Message</Label>
         <Textarea required name="message" id="message" placeholder="write your message" />
             </div>
-        <Button type="submit">Send</Button>
+        <Button type="submit" class=" my-7">Send</Button>
 </form>
