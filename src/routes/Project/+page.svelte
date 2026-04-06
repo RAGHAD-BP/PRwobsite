@@ -16,6 +16,12 @@ This project is a simple daily to‑do list where you can add tasks by time and 
 </div>
 
 <div class="h-fit min-w-[18rem] rounded-lg p-5 m-5 border sm:h-fit w-fit "><div class="flex gap-4">
+This project is a GPA Calculator for a 4.0‑scale semester, designed to help students calculate their GPA quickly.
+It allows students to enter their courses, grades, and credit hours, then automatically computes the semester GPA with a clear and simple result display.<div><img class=" max-w-[200px] max-h-[200px] sm:w-h-[100px] w-[100px] " src="/GPAof4.png"></div>
+</div><Button class="m-2" href="https://gpaof4.netlify.app/">try it</Button><Button class="m-1" href="https://github.com/RAGHAD-BP/gpa4/">see the code</Button>
+</div>
+
+<div class="h-fit min-w-[18rem] rounded-lg p-5 m-5 border sm:h-fit w-fit "><div class="flex gap-4">
 This project offers a collection of fun games designed for families and friends to enjoy together during Eid. It brings laughter, friendly challenges, and joyful moments in a festive and playful atmosphere.<div><img class=" max-w-[200px] max-h-[200px] sm:w-h-[100px] w-[100px] " src="/EidGame.png"></div>
 </div><Button class="m-2" href="https://eidgamess.netlify.app/">try it</Button><Button class="m-1" href="https://github.com/RAGHAD-BP/EidGames/tree/main">see the code</Button>
 </div>
